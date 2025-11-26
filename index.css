@@ -45,10 +45,9 @@
         }
 
         .logo {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            color: #1a73e8;
-                margin:0;
+            color: var(--primary);
         
         }
 
@@ -418,3 +417,12 @@
                 font-size: 2rem;
             }
         }
+        .logo{
+                white-space: nowrap;
+        }
+        @media(max-width: 400px){
+                .logo{
+                        font-size: 1.1rem;
+                }
+        }
+
