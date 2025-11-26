@@ -45,9 +45,11 @@
         }
 
         .logo {
-            font-size: 1.5rem;
+            font-size: 2rem;
             font-weight: 700;
-            color: var(--primary);
+            color: #1a73e8;
+                margin:0;
+        
         }
 
         .nav-links {
